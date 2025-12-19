@@ -5,9 +5,9 @@ public class QuotientRemainder {
                 Scanner sc=new Scanner(System.in);
                 int dividend=sc.nextInt();
                 int divisor=sc.nextInt();
-                int q=dividend/divisor;
+                int quotient=dividend/divisor;
                 int rem=dividend%divisor;
-                System.out.println("The Quotient is " + q + " and Reminder is " + rem + " of two number " + dividend + " and " + divisor);
+                System.out.println("The Quotient is " + quotient + " and Reminder is " + rem + " of two number " + dividend + " and " + divisor);
                 sc.close();
         }
 }
