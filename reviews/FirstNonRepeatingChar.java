@@ -1,6 +1,6 @@
 package reviews;
 import java.util.*;
-public class firstChar {
+public class FirstNonRepeatingChar {
     public static void main(String[] args) {
         Scanner sc = new Scanner (System.in);
         String s = sc.next();
