@@ -41,6 +41,5 @@ public class BankAccountManager {
         acc.displayAccountDetails();
     }
 
-
    
 }
