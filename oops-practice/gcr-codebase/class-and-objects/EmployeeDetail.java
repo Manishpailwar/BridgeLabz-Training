@@ -22,7 +22,7 @@ class Employee {
     }
 }
 
-public class EmployeeDetails {
+public class EmployeeDetail {
     public static void main(String[] args) {
         Employee emp = new Employee("Rohan", 1, 500000);
         emp.displayDetails();

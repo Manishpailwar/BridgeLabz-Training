@@ -38,7 +38,7 @@ class Student {
     }
 }
 
-public class StudentReport {
+public class StudentReports {
     public static void main(String[] args) {
         double[] marks1 = {80.0, 70.0, 75.0};
         Student s1 = new Student("Thamarai", "ECE001", marks1);

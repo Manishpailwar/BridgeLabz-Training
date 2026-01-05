@@ -22,7 +22,7 @@ class Book {
     }
 }
 
-public class BookDetails {
+public class BookDetail {
     public static void main(String[] args) {
         Book b1 = new Book("2States", "Chetan Bhagat", 500.0);
         b1.displayDetails();
