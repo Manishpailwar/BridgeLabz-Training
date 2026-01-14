@@ -61,7 +61,11 @@ public class CabBookingSystem {
         double distance=sc.nextDouble();
         try{
             Driver driver=drivers.get(choice-1);
-            if(!driver.isAvailable())throw new NoDriverAvailableException("No Driver Available!");
+            if(!driver.isAvailable()){
+                sc.close();
+                throw new NoDriverAvailableException("No Driver Available!");
+
+            }
             Ride r=new Ride("R001", u1, driver,distance , getFareCalculator());
             driver.setAvailable(false);
             u1.addRide(r);
