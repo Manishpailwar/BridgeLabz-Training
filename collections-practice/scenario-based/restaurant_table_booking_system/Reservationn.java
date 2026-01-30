@@ -1,6 +1,6 @@
 import java.time.LocalDateTime;
 
-public class Reservation {
+public class Reservationn {
 
     private int reservationId;
     private int tableNumber;
@@ -8,7 +8,7 @@ public class Reservation {
     private LocalDateTime reservationTime;
     private int numberOfGuests;
 
-    public Reservation(int reservationId, int tableNumber, String customerName, 
+    public Reservationn(int reservationId, int tableNumber, String customerName, 
                        LocalDateTime reservationTime, int numberOfGuests) {
         this.reservationId = reservationId;
         this.tableNumber = tableNumber;

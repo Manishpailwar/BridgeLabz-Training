@@ -4,7 +4,7 @@ import java.util.*;
 public class RestaurantReservationSystem {
 
     private Map<Integer, Table> tables;
-    private List<Reservation> reservations;
+    private List<Reservationn> reservations;
     private int reservationCounter;
 
     public RestaurantReservationSystem() {
@@ -51,7 +51,7 @@ public class RestaurantReservationSystem {
         table.setReserved(true);
         
         // Create and add reservation
-        Reservation reservation = new Reservation(
+        Reservationn reservation = new Reservationn(
                 ++reservationCounter, 
                 tableNumber, 
                 customerName, 
@@ -66,9 +66,9 @@ public class RestaurantReservationSystem {
 
     // Cancel a reservation
     public void cancelReservation(int reservationId) {
-        Reservation toRemove = null;
+        Reservationn toRemove = null;
         
-        for (Reservation res : reservations) {
+        for (Reservationn res : reservations) {
             if (res.getReservationId() == reservationId) {
                 toRemove = res;
                 break;
@@ -111,7 +111,7 @@ public class RestaurantReservationSystem {
         if (reservations.isEmpty()) {
             System.out.println("No reservations");
         } else {
-            for (Reservation res : reservations) {
+            for (Reservationn res : reservations) {
                 System.out.println(res);
             }
         }
@@ -123,7 +123,7 @@ public class RestaurantReservationSystem {
     }
 
     // Get all reservations
-    public List<Reservation> getReservations() {
+    public List<Reservationn> getReservations() {
         return new ArrayList<>(reservations);
     }
 
