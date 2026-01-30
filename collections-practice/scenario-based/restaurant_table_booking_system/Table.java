@@ -1,3 +1,5 @@
+package restaurant_table_booking_system;
+
 public class Table {
 
     private int tableNumber;
