@@ -1,0 +1,10 @@
+{
+    "java.project.sourcePaths": [
+        "oops-practice/scenario-based/food_delivery_routing",
+        "java-8-practice/gcr-codebase/lambda",
+        "dsa-practice/scenario-based/aero_vigil",
+        "collections-practice/scenario-based/stream_buzz",
+        "collections-practice/scenario-based/ocean_fleet",
+        "multi-threading-practice/gcr-codebase"
+    ]
+}
