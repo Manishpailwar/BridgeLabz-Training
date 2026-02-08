@@ -86,4 +86,4 @@
 
 - *2nd Feb 2026 (Monday)*: Solved problems related to CSV File handling in Java along with some scenario based problems.
 - *3rd Feb 2026 (Tuesday)*: Solved problem related to stream apis and json and scenario based problems that includes Factory Robot Hazard Analyzer and stream buzz.
-- *4th Feb 2026 (Wednesday)*: Solved problem related to functional interface that includes predicate, consumer, supplier , function and default & static methods along with scenario based problems.
+- *4th Feb 2026 (Wednesday)*: Solved problem related to functional interface that includes predicate, consumer, supplier , function and default & static methods along with some scenario based problems.
