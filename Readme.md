@@ -86,4 +86,23 @@
 
 - *2nd Feb 2026 (Monday)*: Solved problems related to CSV File handling in Java along with some scenario based problems.
 - *3rd Feb 2026 (Tuesday)*: Solved problem related to stream apis and json and scenario based problems that includes Factory Robot Hazard Analyzer and stream buzz.
-- *4th Feb 2026 (Wednesday)*: Solved problem related to functional interface that includes predicate, consumer, supplier , function and default & static methods along with some scenario based problems.
+- *4th Feb 2026 (Wednesday)*: Solved problem related to functional interface that includes predicate, consumer, supplier , function and default & static methods along with scenario based problems.
+- *5th Feb 2026 (Thursday)*: Solved problem related to multithreading and concurrency in java and lambda expressions.
+- *6th Feb 2026 (Friday)*: Had a long session of soft skills training.
+- *7th Feb 2026 (Saturday)*: Solved problems related to collectors and implementation of sonarQube in projects.
+
+# Week 9: Design Patterns and Best Practices
+
+- *10th Feb 2026 (Monday)*: Solved problems related to design patterns in java that includes singleton, factory, observer and strategy pattern.
+- *11th Feb 2026 (Tuesday)*: Had a mock test on core java, oops, dsa and collections, streams and java-8 features.
+- *12th Feb 2026 (Wednesday)*: Solved problems related to best practices in java and code refactoring and some scenario based problems.
+- *13th Feb 2026 (Thursday)*: Had a mentor session on code quality and best practices in java and solved some scenario based problems.
+- *14th Feb 2026 (Friday)*: Had a long session of soft skills training.
+- *15th Feb 2026 (Saturday)*:  Completed comprehensive OOPS practice implementation on oops-practice branch for employee based problems.
+
+# Week 10: OOPS Practice - Use Cases and Best Practices
+
+- *16th Feb 2026 (Monday)*:Completed comprehensive OOPS practice implementation on oops-practice branch for Address Book System problems.
+- *17th Feb 2026 (Tuesday)*: Solved Use case 1 and Use case 2 of Quality Measurement App.
+- *18th Feb 2026 (Wednesday)*: Had a mock test related to m1 exam covering topics from java basics to dsa.
+- *19th Feb 2026 (Thursday)*: Solved Use case 3 and Use case 4 of Quality Measurement App and a meeting with mentor related to mock test.
