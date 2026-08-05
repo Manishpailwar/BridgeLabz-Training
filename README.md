@@ -21,6 +21,7 @@
 
 Went through and answered all the practice and interview questions for the day.
 
+
 ## Day 2 - ER Diagram, Indexing, Database Normalization
 
 ### 📌 DONE TODAY
@@ -36,3 +37,20 @@ functional dependency analysis
 - Learned **Denormalization** as a deliberate, targeted performance trade-off for
 OLAP/reporting systems
 - Built the **fully normalized Health Clinic schema** with proper indexes.
+
+
+## Day 3 — SQL Joins, Stored Procedures, Triggers
+
+### 📌 DONE TODAY (04-08-2026)
+
+- Moved from single-table queries to combining data across multiple related tables using all major JOIN types: INNER, LEFT, RIGHT, FULL OUTER, SELF, and CROSS JOIN
+- Wrote real multi-table joins across the normalized Health Clinic schema (Patients, Doctors, Appointments, Billing, Visit History) to pull meaningful combined reports
+- Learned why MySQL doesn't natively support FULL OUTER JOIN, and how to simulate it using UNION
+- Practiced Multiple Table Joins, chaining several JOIN clauses into one full appointment report query
+- Learned Stored Procedures — precompiled, reusable SQL logic stored inside the database itself
+- Practiced creating and calling procedures using DELIMITER, and working with IN, OUT, and INOUT parameter types
+- Implemented Error Handling in procedures using DECLARE ... HANDLER, paired with transactions (COMMIT/ROLLBACK)
+- Learned Triggers — automatic database actions that fire in response to INSERT/UPDATE/DELETE events
+- Built BEFORE and AFTER triggers for INSERT, UPDATE, and DELETE, understanding the NEW vs OLD row distinction
+- Built the Appointment Procedure, Billing Procedure, Visit History Trigger, and Audit Trigger for the Health Clinic project — to be reused directly in Day 4's final JDBC application
+- Went through and answered all the practice and interview questions for the day
